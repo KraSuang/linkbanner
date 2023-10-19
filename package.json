@@ -2,7 +2,7 @@
   "name": "krasuang-linkbanner",
   "developer": "TKM_KraSuang",
   "private": true,
-  "version": "1.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
