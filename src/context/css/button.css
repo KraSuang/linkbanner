@@ -1,0 +1,12 @@
+@keyframes buttonwrapAnimation {
+    0%, 100% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.button-wrap-animation {
+    animation: buttonwrapAnimation 4s ease-in-out infinite;
+}

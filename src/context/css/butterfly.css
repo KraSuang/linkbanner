@@ -1,0 +1,12 @@
+@keyframes butterflyrotateAnimation {
+    0%, 100% {
+        transform: rotate(60deg);
+    }
+    50% {
+        transform: rotate(56deg);
+    }
+}
+
+.butterfly-animation {
+    animation: butterflyrotateAnimation 6s ease-in-out infinite;
+}

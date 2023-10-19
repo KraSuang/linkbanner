@@ -1,0 +1,12 @@
+@keyframes rotateAnimation {
+    0%, 100% {
+        transform: rotate(-14deg);
+    }
+    50% {
+        transform: rotate(-20deg);
+    }
+}
+
+.ghost-animation {
+    animation: rotateAnimation 3s ease-in-out infinite;
+}
