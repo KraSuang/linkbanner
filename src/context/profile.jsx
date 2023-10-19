@@ -119,7 +119,7 @@ export default function Profile() {
                 >
                     {Contact.map((contact) => (
                         <motion.a
-                            className={`flex items-center w-full h-fit bg-button/70 hover:bg-button px-4 py-3 mb-4 rounded-2xl relative shadow-sm`}
+                            className={`flex items-center w-full h-fit bg-button/70 hover:bg-button px-4 py-3 mb-4 rounded-2xl relative shadow-sm transition-colors duration-200`}
                             href={contact.url}
                             target="_BLANK"
                             initial={{ y: -10, opacity: 0 }}
