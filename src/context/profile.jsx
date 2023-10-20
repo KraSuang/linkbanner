@@ -133,6 +133,11 @@ export default function Profile() {
                                 className="ml-4 text-lg text-white text-center w-full button-wrap-animation">
                                 {contact.title}
                             </motion.p>
+
+                            <motion.p
+                                className="absolute text-[10px] text-white right-3 button-wrap-animation">
+                                {"Click Me!"}
+                            </motion.p>
                         </motion.a>
                     ))}
                     <motion.button
@@ -149,6 +154,10 @@ export default function Profile() {
                         <motion.p className="ml-4 text-lg text-white text-center w-full button-wrap-animation">
                             KraSuang#6095
                         </motion.p>
+                        <motion.p
+                                className="absolute text-[10px] text-white right-3 button-wrap-animation">
+                                {"Click Me!"}
+                            </motion.p>
                     </motion.button>
                 </motion.div>
                 <motion.p
